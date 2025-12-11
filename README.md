@@ -11,6 +11,13 @@ This project demonstrates an end-to-end machine learning pipeline:
 - Evaluate the model on a held-out validation set
 - Visualize results and run inference in Streamlit
 
+## Architecture & Design Choices
+- Model: PyTorch feedforward neural network with 3 layers
+- Loss function: BCEWithLogitsLoss for binary classification
+- Optimizer: Adam
+- Data splitting: 70% train, 15% validation, 15% test
+- Evaluation: Accuracy on validation and test sets
+- EDA: Visualizations using Seaborn and Matplotlib, integrated into Streamlit
 
 ## Installation
 - git clone https://github.com/yoav31/Data_Science-Task_Classification_Model 
