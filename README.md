@@ -29,6 +29,6 @@ This project demonstrates an end-to-end machine learning pipeline:
 ---
 
 ## Installation
-1. Clone the repository:
-```bash
-git clone <your-repo-url>
+git clone https://github.com/yoav31/Data_Science-Task_Classification_Model
+cd Data_Science-Task_Classification_Model
+pip install -r requirements.txt
