@@ -62,7 +62,6 @@ def train_model(df):
 
         st.write(f"Epoch [{epoch+1}/{epochs}], Loss: {total_loss:.4f}, Val Accuracy: {val_acc:.4f}")
 
-    # שמירת המודל
     model_dir = "models"
     os.makedirs(model_dir, exist_ok=True)
     model_path = os.path.join(model_dir, "titanic_model.pth")
@@ -71,7 +70,6 @@ def train_model(df):
     st.write("Training complete.")
     st.write("Final Validation Accuracy: {:.4f}".format(val_acc))
 
-    # --- Evaluation on test set ---
     model.eval()
     correct = 0
     total = 0
@@ -83,3 +81,4 @@ def train_model(df):
             total += y_batch.size(0)
     test_acc = correct / total
     st.write("Test Accuracy: {:.4f}".format(test_acc))
+
