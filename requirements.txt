@@ -1,0 +1,14 @@
+# Web app
+streamlit>=1.25
+
+# Data manipulation
+pandas>=2.0
+numpy>=1.25
+
+# Data visualization
+matplotlib>=3.8
+seaborn>=0.12
+
+# Machine learning / deep learning
+scikit-learn>=1.3
+torch>=2.1
