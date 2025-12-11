@@ -17,5 +17,5 @@ This project demonstrates an end-to-end machine learning pipeline:
 - cd Data_Science-Task_Classification_Model
 - pip install -r requirements.txt
 
-##Run the app:
+## Run the app:
 - streamlit run ds_app.py
