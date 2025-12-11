@@ -2,7 +2,6 @@
 
 Predict whether a passenger survived the Titanic disaster using a PyTorch neural network and visualize results in a Streamlit app.
 
----
 
 ## Description
 This project demonstrates an end-to-end machine learning pipeline:
@@ -12,21 +11,6 @@ This project demonstrates an end-to-end machine learning pipeline:
 - Evaluate the model on a held-out validation set
 - Visualize results and run inference in Streamlit
 
----
-
-## Requirements
-- Python 3.10+
-- pandas
-- numpy
-- scikit-learn
-- torch
-- matplotlib
-- seaborn
-- streamlit
-
-> You can install all requirements using `pip install -r requirements.txt`.
-
----
 
 ## Installation
 git clone https://github.com/yoav31/Data_Science-Task_Classification_Model
